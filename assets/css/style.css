@@ -29,7 +29,7 @@ header a {
 section 
       /* Hero Sytle Start */
       .hero {
-        background-image: url("../Pictures/Saved Pictures/hero-bg.jpg");
+        background-image: url("images\hero-bg (2).jpg); 
         height: 600px;
         background-size: cover;
         background-position: center;
@@ -132,4 +132,7 @@ section
     .steps p {
         color: #39a6b2;
         font-size: 23px;
+    }
+    .steps span {
+        font-size: 38px;
     }
