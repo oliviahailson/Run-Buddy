@@ -186,23 +186,14 @@ section {
     .trainer img {
         width: 35%;
         float: left;
-        overflow: auto;
     }
 
     .trainer-bio {
         padding: 35px;
-        float: letft;
+        float: left;
         width: 65%;
-        overflow: auto;
     }
-     .text-left {
-         text-align: left;
-     }
-
-     .text-right {
-         text-align: right;
-     }
-   
+      
      .trainer-bio h3 {
          font-size: 32px;
          margin-bottom: 8px;
@@ -216,6 +207,14 @@ section {
      .trainer-bio p {
          font-size: 17px;
          line-height: 1.3;
+     }
+
+     .text-left {
+         text-align: left;
+     }
+
+     .text-right {
+         text-align: right:
      }
 
      
