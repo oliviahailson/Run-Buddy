@@ -78,25 +78,23 @@ footer h2 {
       /*Style All Section Tags*/
       section {
           padding: 60px;
-      }
+    }
 
       .hero {
         background-image: url("..\run-buddy\assets\assets\images\hero-bg.jpg")
         background-size cover;
         background-position: center;
-        position: relative;
-        height: 600px;
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
     }
+
        .hero-form {
         border: 3px solid #024e76;
         background-color: #fce138;
         padding: 20px;
-        width: 500px;
         color: #024e76;
-        position: absolute;
-        bottom: 120px;
-        right: 140;
-    }
+    }   
     
     .header-form h3 {
         font-size: 24px;
