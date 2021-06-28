@@ -40,12 +40,18 @@ header nav {
     justify-content: space-between;
 }
 
+header nav ul {
+    display: flex;
+    flex-wrap;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+}
+
 header nav ul li a {
     margin: 0 30px;
     font-weight: lighter;
-    font-size: 22px;
-    display: flex;
-    justify-content: space-between;
+    font-size: 1.55vw;
 }
 /*Header/Navebar Styles End*/
 
