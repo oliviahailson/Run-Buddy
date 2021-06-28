@@ -13,30 +13,39 @@ body {
 header {
     padding: 20px 35px;
     background-color: #39a6b2;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
 }
 
 header h1 {
     font-weight: bold;
-    display: inline;
     font-size: 36px;
     color: #fce138;
     margin: 0;
+    display: flex;
+    justify-content: space-between;
 }
 
 header a {
     text-decoration: none;
     color: #fce138;
+    display: flex;
+    justify-content: space-between;
 }
 
 header nav {
-    float: right;
     margin: 7px 0;
+    display: flex;
+    justify-content: space-between;
 }
 
 header nav ul li a {
     margin: 0 30px;
     font-weight: lighter;
     font-size: 22px;
+    display: flex;
+    justify-content: space-between;
 }
 /*Header/Navebar Styles End*/
 
